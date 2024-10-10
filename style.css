@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+.section-1{
+    text-align: center;
+}
+
+.heading-section1 , .heading-section2 , .para{
+    margin-top: 50px;
+}
+
+.main-head{
+    font-size: 85px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+
+/* span => heading-section 1 , 2 */
+.blue-color{
+    color: rgb(27, 27, 140);
+}
+
+/* span => heading-section 1 , 2 */
+.red-color{
+    color: rgb(160, 23, 23);
+}
+
+hr.main-hr{
+    height: 2px;
+    background-color: black; 
+    width: 80%;
+    margin: 0 auto;  
+}
+
+p.content{
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+button.btn{
+    height: 55px;
+    width: 160px;
+    font-size: 19px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(160, 23, 23);
+    margin-top: 30px ;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+    .main-head{
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: -2px;
+    } 
+
+  
+}
+
+@media screen and (min-width:721px) , (max-width:900px) {
+    .main-head{
+        font-size: 54px;
+        font-weight: 500;
+        letter-spacing: -2px;
+    } 
+}
+
+@media screen and (min-width:700px) , (max-width: 964px ) {
+    p.content{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    p.content{
+        width: 80%;
+    }
+}
+
+.content-section{
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+
+ 
+p.leads{
+    padding-top: 30px;
+}
+
+.section-2 , .section-5{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(27, 27, 140);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-section{
+    padding-top: 50px;
+    width: 40%;
+    color: white;
+}
+
+.content-para{
+    padding-top: 18px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:720px){
+    /* .section-2 , .section-3{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    } */
+
+    .content-section{
+    width: 90%;
+}
+
+.section-3 .img-section img{
+height: 70%;    
+width: 70%;
+padding-top: 20px;
+}
+
+}
+
+.section-3 , .section-8{
+    width: 100%;
+    height: fit-content;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-8 .img-section img{
+    padding-top: 40px;
+}
+
+.section-4 , .section-6{
+    width: 100%;
+    height: fit-content;
+    background-color:white  ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.section-4 .content-section , 
+.section-6 .content-section {
+    color: black;
+}
+
+.section-4 .img-section img{
+    height: 100%;
+    width: 140%;
+}
+
+
+@media screen and (max-width: 1199px){
+    .section-4 .img-section img{
+    height: 50%;
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 980px){
+    .section-2 , .section-3 , .section-4 , .section-5 , .section-6 , .section-7 , .section-8{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-8 .img-section img{
+        width: 70% ;
+        padding-top: 30px;
+    }
+
+    .content-section{
+    width: 90%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.section-5 .img-section img , .section-6 .img-section img{
+    padding-top: 40px;
+    height: 70%;
+    width: 70%;
+}
+
+}
+
+
+@media screen and (max-width: 1330px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+.section-7{
+    height: fit-content;
+    width: 100%;
+    background-color:  rgb(27, 27, 140);
+    text-align: center;
+}
+
+.section-7 .img-section{
+    padding-top: 50px;
+}
+
+.section-7 .content-section{
+    padding-top: 70px;
+    width:70%;
+    margin: 0 auto;
+}
+
+.section-9{
+    width: 100%;
+    height: fit-content;
+    background-color: red;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section-9 .content-section{
+    margin:0 auto;
+    width: 80%;
+}
+
+.item{
+    height: max-content;
+    width: 18%;
+    background-color: rgb(63, 63, 232);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button.btn-1{
+    height: 35px;
+    width: 140px;
+    background-color: white;
+    color: red;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn2{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid rgb(63, 63, 232);
+    color: rgb(63, 63, 232);
+    margin-top: 10px;
+
+}
+
+.item-h5{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:720px) {
+    .box-2 , .box1{
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
+.item{
+    height: max-content;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* text-align: center; */
+}
+    
+}
+
+@media screen and (max-width:1200px) {
+    .home-page{
+        overflow-x: hidden;
+    }
+}
+
+.section-11{
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.section-12{
+display: flex;
+justify-content: space-around;
+}
+
+button.btn-3{
+    height: 48px;
+    width: 140px;
+    background-color: rgb(20, 98, 255);
+    border: 1px solid  rgb(20, 98, 255);
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:780px) {
+    .section-12{
+        text-align: center;
+        flex-direction: column;
+        display: block;
+    }
+
+    iframe{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+.section-13{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(16, 16, 188);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section-14{
+    padding: 30px;
+}
